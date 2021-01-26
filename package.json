@@ -1,0 +1,26 @@
+{
+  "name": "thrivetalk",
+  "version": "1.0.0",
+  "description": "Сборка гулп",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guypystin/thrivetalk.git"
+  },
+  "author": "Trippie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guypystin/thrivetalk/issues"
+  },
+  "homepage": "https://github.com/guypystin/thrivetalk#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  }
+}

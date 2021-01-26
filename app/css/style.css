@@ -1,0 +1,133 @@
+@import url(../css/fonts.css);
+@import url(../css/min.css);
+.header {
+  background-color: #F4F9E2;
+  height: 840px; }
+
+.container {
+  width: 1127px;
+  margin: 0 auto; }
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 27px; }
+
+.header__logo-link {
+  font-family: 'Larsseit bold';
+  color: #62D0DF;
+  font-size: 24px; }
+
+.menu__list {
+  display: flex;
+  width: 233px;
+  justify-content: space-between;
+  box-sizing: border-box; }
+
+.menu__item {
+  padding-bottom: 10px; }
+
+.menu__link {
+  font-family: 'Larsseit Regular';
+  font-size: 14px;
+  line-height: 16px;
+  color: #22356F;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px; }
+
+.menu__link::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #22356F;
+  transition: 0.2s; }
+
+.menu__link:hover:before {
+  width: 100%;
+  left: 0; }
+
+.header__top-button {
+  cursor: pointer;
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: #62D0DF;
+  font-size: 14px;
+  font-family: 'Larsseit bold';
+  -webkit-transition: 0.5s ease;
+  text-transform: uppercase;
+  color: white;
+  z-index: 2; }
+
+.header__top-button:hover {
+  background-color: #22356F; }
+
+.header__title-min {
+  font-family: 'Larsseit bold';
+  color: #62D0DF;
+  font-size: 24px;
+  margin-top: 187px; }
+
+.header__title-big {
+  font-family: 'Larsseit bold';
+  color: #22356F;
+  text-transform: uppercase;
+  font-size: 48px;
+  max-width: 484px;
+  margin-top: 32px;
+  line-height: 52px;
+  letter-spacing: -0.035em; }
+
+.header__text {
+  font-family: 'Larsseit Regular';
+  font-size: 24px;
+  line-height: 42px;
+  width: 469px;
+  color: #22356F;
+  margin-top: 74px; }
+
+.header__buttons {
+  display: flex;
+  margin-top: 63px;
+  align-items: center; }
+
+.header_button {
+  text-transform: uppercase;
+  font-family: 'Larsseit bold';
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  padding: 15px 30px;
+  background-color: #F9B640;
+  transition: 500ms; }
+
+.header_button:hover {
+  opacity: 80%; }
+
+.header__button-two {
+  margin-left: 38px; }
+
+.header__button-two-link {
+  text-transform: uppercase;
+  font-family: 'Larsseit bold';
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #F9B640; }
+
+.header__content-image {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.header__content-image-inner {
+  right: 0;
+  position: absolute;
+  z-index: 1; }
+
+.header__sub-image {
+  z-index: 0; }
